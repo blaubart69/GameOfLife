@@ -22,9 +22,9 @@ namespace GDCR4
         {
             data[x, y] = true;
         }
-        public override ABoard CreateEmptyBoard(int x, int y)
+        public override ABoard CreateEmptyBoard()
         {
-            return new ArrayBoardImpl(x, y);
+            return new ArrayBoardImpl(X,Y);
         }
     }
 }

@@ -6,13 +6,14 @@ using GDCR4;
 namespace GDCR4Test
 {
     [TestClass]
-    public class UnitTest1
+    public class TestBoardIml
     {
         ABoard board;
+
         [TestInitialize]
         public void Init()
         {
-            board = new ArrayBoardImpl(10, 10);
+            board = new SetImpl(10, 10);
         }
         [TestMethod]
         public void CellDiesOfNoNeighbours()

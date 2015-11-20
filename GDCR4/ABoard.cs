@@ -10,22 +10,22 @@ namespace GDCR4
             FORWARD = 1
         }
 
-        private readonly int X;
-        private readonly int Y;
+        protected readonly int X;
+        protected readonly int Y;
 
-        public ABoard(int x, int y)
+        public ABoard(int xWidth, int yWidth)
         {
-            this.X = x;
-            this.Y = y;
+            this.X = xWidth;
+            this.Y = yWidth;
         }
 
         public abstract bool IsCellAlive(int x, int y);
         public abstract void SetCell(int x, int y);
-        public abstract ABoard CreateEmptyBoard(int x, int y);
+        public abstract ABoard CreateEmptyBoard();
 
         public ABoard NextGen()
         {
-            ABoard NewBoard = CreateEmptyBoard(X, Y);
+            ABoard NewBoard = CreateEmptyBoard();
 
             for ( int x=0; x < X; x++)
             {
