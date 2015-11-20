@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDCR4", "GDCR4\GDCR4.csproj", "{B433251E-7BE3-495F-A9DC-B94D48755E93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDCR4Test", "GDCR4Test\GDCR4Test.csproj", "{EC9AA81E-DA29-4D80-A1A4-AFC63B15ED40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B433251E-7BE3-495F-A9DC-B94D48755E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B433251E-7BE3-495F-A9DC-B94D48755E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B433251E-7BE3-495F-A9DC-B94D48755E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B433251E-7BE3-495F-A9DC-B94D48755E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC9AA81E-DA29-4D80-A1A4-AFC63B15ED40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9AA81E-DA29-4D80-A1A4-AFC63B15ED40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC9AA81E-DA29-4D80-A1A4-AFC63B15ED40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC9AA81E-DA29-4D80-A1A4-AFC63B15ED40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
